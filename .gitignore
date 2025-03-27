@@ -1,0 +1,7 @@
+# Nix-related temporary files/caches
+/.direnv/
+/result*
+/.pre-commit-config.yaml
+
+# Rust binary artifacts
+/target/

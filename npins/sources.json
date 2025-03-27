@@ -1,0 +1,53 @@
+{
+  "pins": {
+    "crate2nix": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "crate2nix"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "0.14.1",
+      "revision": "2d7f17cb5d0f066019e9b6169276951eb9533859",
+      "url": "https://api.github.com/repos/nix-community/crate2nix/tarball/0.14.1",
+      "hash": "04c4ikk9abc33mgn16chng4zxwd67lf27720mfc1h5kvgd3a3ibs"
+    },
+    "fenix": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "fenix"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "7d9ba794daf5e8cc7ee728859bc688d8e26d5f06",
+      "url": "https://github.com/nix-community/fenix/archive/7d9ba794daf5e8cc7ee728859bc688d8e26d5f06.tar.gz",
+      "hash": "18fzdlxk7ixm5cy7v3aq9rgkcwxdv4xbgp0na3bnf8cl1l6qnnxi"
+    },
+    "git-hooks": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "cachix",
+        "repo": "git-hooks.nix"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "dcf5072734cb576d2b0c59b2ac44f5050b5eac82",
+      "url": "https://github.com/cachix/git-hooks.nix/archive/dcf5072734cb576d2b0c59b2ac44f5050b5eac82.tar.gz",
+      "hash": "1jmdxmx29xghjiaks6f5amnxld8w3kmxb2zv8lk2yzpgp6kr60qg"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-25.05pre774024.25d1b84f5c90/nixexprs.tar.xz",
+      "hash": "0wn9xnzdx2j6x4sddlrgks3r6nh3x4z27s7wfgjcmjy2i7snwkrx"
+    }
+  },
+  "version": 5
+}
