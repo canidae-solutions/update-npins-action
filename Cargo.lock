@@ -605,7 +605,7 @@ dependencies = [
 [[package]]
 name = "npins"
 version = "0.3.0"
-source = "git+https://github.com/andir/npins#9ae93b84e30f8539953ff359dec2cdff3b73a649"
+source = "git+https://github.com/andir/npins#4d1b2914002a616f9de84665be07071c86f55652"
 dependencies = [
  "anyhow",
  "async-trait",
